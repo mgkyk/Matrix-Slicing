@@ -11,19 +11,46 @@ This program will delete all the data in Ath row or Bth column in the origin mat
 
 ## Demo
 input:
+
+
 matrix = 
+
+
 [
+
+
 [1, 2,  3,  4]
+
+
 [5, 6,  7,  8]
+
+
 [9, 10, 11, 12]
+
+
 ]
+
+
 
 postion = [1, 2]
 
 
 output:
+
+
 new_matrix = 
+
+
 [
+
+
 [ 1 2  4]
+
+
 [ 9 10 12]
+
+
 ]
+
+> tag: this program is a subprogram for my N-Queen program
+
