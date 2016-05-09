@@ -24,7 +24,7 @@ def slice(array, position):
     if row == 0:
         row_array = array[1:, ]
     elif row == dim[0]-1:
-        row_array = array[-1:, ]
+        row_array = array[:-1, ]
     else:
         first_slice = array[:row, ]
         second_silce = array[row+1:, ]
@@ -36,7 +36,7 @@ def slice(array, position):
     if col == 0:
         new_array = row_array[:, 1:]
     elif row == dim[0]-1:
-        new_array = row_array[:, -1:]
+        new_array = row_array[:, :-1]
     else:
         first_slice = row_array[:, :col]
         second_silce = row_array[:, col+1:]
